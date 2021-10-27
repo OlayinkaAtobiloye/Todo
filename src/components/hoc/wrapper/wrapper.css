@@ -1,0 +1,65 @@
+main {
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
+.header {
+  text-align: center;
+  font-family: Raleway;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.045em;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 32px;
+  color: #333333;
+}
+
+.taskCategories {
+  display: flex;
+  justify-content: space-evenly;
+  color: #333333;
+  border-bottom: 1px solid #bdbdbd;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
+.taskCategory {
+  list-style: none;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  padding-bottom: 15px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.active {
+  border-bottom: 4px solid #2f80ed;
+  border-radius: 0px 0px 4px 4px;
+}
+
+@media (max-width: 768px) {
+  main {
+    margin-left: 2vw;
+    margin-right: 6vw;
+  }
+
+  .taskCategories {
+    margin-left: 2vw;
+    margin-right: 6vw;
+  }
+
+  .inputTask {
+    width: 250px;
+  }
+
+  .delete{
+    width: 100px;
+  }
+}
